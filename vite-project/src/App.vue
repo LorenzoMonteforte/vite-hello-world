@@ -1,17 +1,20 @@
 <script>
-import AppTitle from "./components/AppTitle.vue";
-import AppHero from "./components/AppHero.vue";
+import Intestazione from "./components/Intestazione.vue";
+import Principale from "./components/Principale.vue";
+import Conclusione from "./components/Conclusione.vue";
 export default {
   components: {
-    AppTitle,
-    AppHero
+    Intestazione,
+    Principale,
+    Conclusione
   }
 }
 </script>
 
 <template>
-  <AppTitle />
-  <AppHero />
+  <Intestazione />
+  <Principale />
+  <Conclusione />
 </template>
 
 <style scoped></style>

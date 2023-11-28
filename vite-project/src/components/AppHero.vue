@@ -8,6 +8,9 @@
 
 <style scoped>
 img {
-    width: 100%;
+    margin-top: 1rem;
+    height: 300px;
+    width: 80%;
+    object-fit: cover;
 }
 </style>

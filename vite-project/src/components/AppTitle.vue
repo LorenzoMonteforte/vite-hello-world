@@ -6,4 +6,8 @@
     <h1>La mia prima app con vite!</h1>
 </template>
 
-<style scoped></style>
+<style scoped>
+h1 {
+    color: red;
+}
+</style>
